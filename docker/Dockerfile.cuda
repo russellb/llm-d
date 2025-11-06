@@ -283,7 +283,7 @@ RUN mkdir -p /opt/vllm-source && \
 # Define commit SHAs as build args to avoid layer invalidation
 ARG LMCACHE_COMMIT_SHA="0db8ae4746a207a72483d716b5f82545a2ead24b"
 ARG VLLM_REPO="https://github.com/vllm-project/vllm.git"
-ARG VLLM_COMMIT_SHA="b8b302cde434df8c9289a2b465406b47ebab1c2d"
+ARG VLLM_COMMIT_SHA="4507a6dae4311940910aab739092f1e23243b103"
 # vllm commit to use for precompiled wheel lookup (defaults to VLLM_COMMIT_SHA)
 # useful for testing feature branches with python-only changes against merge-base binaries
 ARG VLLM_PRECOMPILED_WHEEL_COMMIT
